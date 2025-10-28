@@ -94,6 +94,9 @@
         jobInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') addJobBtn.click();
         });
+        clearJobBtn.addEventListener('click', () => {
+            completeJobs.innerHTML = '';
+         }) // removes all completed jobs
     </script>
 </body>
 </html>
